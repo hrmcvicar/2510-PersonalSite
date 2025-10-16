@@ -1,17 +1,6 @@
-/** {
-  border: 1px black solid;
-}*/
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-image: linear-gradient(to bottom left, pink, purple);
-}
-/*can I extend background image to full screen?*/
-
 nav > section {
   display: flex;
+  justify-content: flex-end;
   flex-direction: row;
   column-gap: 3ch;
   line-height: 2;
@@ -23,12 +12,14 @@ nav > section > a {
   color: purple;
 }
 
-#name {
-  font-size: 125%;
+header > p {
+  font-size: 300%;
   color: violet;
   padding-left: 2%;
   padding-bottom: 1%;
-  min-width: 100%;
+}
+header {
+  background-image: linear-gradient(to bottom left, pink, purple);
 }
 
 body {
@@ -36,4 +27,8 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: rgb(245, 220, 238);
+}
+
+blockquote {
+  font-style: italic;
 }
