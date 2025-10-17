@@ -31,33 +31,40 @@
     <main>
       <h1>get in touch!</h1>
       <article>
-        (if you can. who knows where I'm at)
-        <br />
-        if your carrier pidgeon is on a job and you can't pay the high owl fees,
-        mail shouold work just fine. fill out this handy dandy form and I'll be
-        in touch within 3-5 business days
-        <br />
-        (if I'm not too emotionally exhausted from being an introvert in an
-        extrovert's household)
+        <p>
+          if your carrier pidgeon is on a job and you can't pay the high owl
+          fees, mail shouold work just fine. fill out this handy dandy form and
+          I'll be in touch within 3-5 business days
+        </p>
+
+        <p />
+        <p id="subtitle">
+          (if I'm not too emotionally exhausted from being an introvert in an
+          extrovert's household)
+        </p>
       </article>
-      <h2>fill 'er out friend</h2>
-      <form>
-        <label> name: </label>
-        <input type="text" />
-        <br />
-        <label> email: </label>
-        <input type="email" />
-        <br />
-        <label> message: </label>
-        <input type="text" />
-        <br />
-        <input type="radio" name="favepet" />
-        <label>coffee</label>
-        <br />
-        <input type="radio" name="favepet" />
-        <label>tea</label>
-        <br />
-        <button>Submit</button>
+      <h2>fill 'er out</h2>
+      
+      <form class="flexItem" action="success.html">
+        <!--how to make this work?-->
+
+        <label for="name"> name:</label>
+        <input type="text" placeholder="how to call you" />
+
+        <label for="email"> email: </label>
+        <input type="email" placeholder="for those w/o a pidgeon" />
+
+        <label for="message"> message: </label>
+        <input type="text" placeholder="what's up??" />
+
+        <label for="coffe_tea">morning drink of choice:</label>
+        <select id="choice" />
+        <option>choose one</option>
+        <option>coffee</option>
+        <option>tea</option>
+        <option>both are great :)</option>
+        <select>
+        <button type="submit">submit</button>
       </form>
     </main>
     <footer>
@@ -68,5 +75,6 @@
       <i class="fa-brands fa-github"></i>
       <i class="fa-brands fa-linkedin"></i>
     </footer>
+    <!--footer??-->
   </body>
 </html>

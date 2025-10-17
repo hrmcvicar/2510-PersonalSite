@@ -1,5 +1,5 @@
+/** {border: 1px black solid;}*/
 form {
-  line-height: 6ch;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -7,4 +7,23 @@ form {
   max-width: min-content;
   margin: 2%;
   margin-bottom: 5%;
+  background-color: rgb(169, 114, 221);
+  padding: 3%;
+  border-radius: 10%;
+  row-gap: 2ch;
+}
+
+main {
+  display: grid;
+  margin-left: 10px;
+  max-width: 50%;
+}
+
+#subtitle {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+#success {
+  margin: 8%;
 }
