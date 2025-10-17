@@ -54,3 +54,13 @@ footer > div {
   margin-left: 1%;
   margin-right: 1%;
 }
+
+@media (width < 600px) {
+  nav > section {
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  header {
+    background-image: linear-gradient(to bottom, pink, purple);
+  }
+}
