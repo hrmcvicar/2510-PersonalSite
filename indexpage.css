@@ -36,7 +36,7 @@ header {
 
 body {
   display: grid;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto min-content auto;
   font-family: "Shadows Into Light Two", cursive;
   font-weight: 400;
   font-style: normal;
@@ -59,33 +59,50 @@ footer > div {
   margin-right: 1%;
 }
 
-main {
+/*main {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: min-content min-content min-content;
-  gap: 1rem 1rem;
+  gap: 1rem 1rem;}*/
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  height: max-content;
+  justify-content: ;
+  align-content: ;
+}
+
+main > div {
+  width: 30%;
+  height: fit-content;
+  margin: left;
+  align-self: flex-start;
+}
+figure {
+  margin: righautot;
 }
 
 img {
+  display: inline;
   max-block-size: 15%;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  max-width: 40%;
   padding-top: 1%;
   border-radius: 20%;
 }
 
-main > div {
+/*main > div {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   padding-bottom: 0%;
   padding-left: 1%;
-}
+}*/
 
-figure {
+/*figure {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column: 1 / -1;
-}
+}*/
 
 @media (width < 600px) {
   nav > section {
