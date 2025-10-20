@@ -12,20 +12,24 @@ h1 {
   padding: 1%;
   border-radius: 10%;
 }
+
 h2 {
   text-decoration: underline;
   margin-left: 20px;
   max-width: fit-content;
 }
+
 article {
   background-color: rgb(245, 220, 238);
   color: black;
 }
+
 h3 {
   font-style: italic;
   margin-left: 50px;
   max-width: fit-content;
 }
+
 a {
   text-decoration: none;
 }
